@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    position: fixed;
+    background-color: #ffffff;
+    border-bottom: 1px #eee solid;
+    width: 100%;
+}
+  
+    
+#header-container {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+#header-img {
+    width: 47px;
+    padding-right: 2em;
+}
+#title {
+    line-height: 47px;
+}
+#nav-bar {
+    width: 40vw;
+}
+nav > ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+li {
+    list-style: none;
+    flex: 1;
+    text-align: center;
+}
+.nav-link {
+    text-decoration: none;
+  
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px #eee solid;
+    height: calc(100vh - 60px);
+    display: ;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+ .box {
+          display: flex;
+          flex-direction: row-reverse;
+        }
+#hero {
+    padding-top: 60px;
+    text-align: center;
+    background-color: rgb(224, 204, 178);
+}
+#video {
+    width: 100%;
+    max-height: 360px;
+}
+#updates {
+    text-align: center;
+    background-color: rgb(245, 33, 75);
+}
+#form {
+    text-align: center;
+}
+#updates label {
+    color: #fff;
+    display: block;
+    padding-bottom: 1em;
+   
+}
+.flex-container {
+
+align-content:  flex-center;
+}
+  .box {
+ display: flex;
+          }
+      
+
+#updates input {
+    /* display: block; */
+    padding: 6px 12px;
+    
+}
+#submit {
+    padding: 6px 12px;
+     
+}
+#pricing {
+    background-color: rgb(248, 77, 248);
+}
+.cards {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex: 1fr 1fr 1fr;
+     
+}
+.card {
+    background-color: #ffffff;
+    display: inline-block;
+     
+}
+.card img {
+    width: 100%;
+    height: 150px;
+   
+}
+.card .container {
+    text-align: center;
+  
+}
+
+#source-code {
+    text-align: center;
+    background-color: gainsboro;
+    height: 40px;
+    line-height: 40px;
+     
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-bar {
+        width: 70vw;
+        
+    }
+    nav > ul {
+        flex-flow: unset;
+    }
+    #title {
+        width: 40px;
+        line-height: 22px;
+       
+    }
